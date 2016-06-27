@@ -1,0 +1,38 @@
+﻿table, th, td, form 
+{
+    border-color: black; 
+    border-style: solid;
+    border-width: 5px;
+}
+
+tbody td:first-child
+{
+    font-style:italic;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color:green; 
+}
+
+tbody tr:nth-child(even)
+{
+    background-color:blue; 
+}
+
+div.outer-content
+{
+    margin-left: 0px;
+    margin-top: 20px;
+    background-color:pink;
+    width: 75%;
+    padding: 25px;
+}
+
+div.inner-content
+{
+    text-align: center; 
+    margin: 0 auto;  
+    background-color:blue;
+    width: 75%;
+}
